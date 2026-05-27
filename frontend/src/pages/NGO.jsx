@@ -32,7 +32,7 @@ export default function NgoDashboard() {
       image:
         "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=1200&auto=format&fit=crop",
     },
-
+    /*
     {
       name: "Roti (Pack of 20)",
       place: "Royal Kitchen",
@@ -41,7 +41,7 @@ export default function NgoDashboard() {
       expiry: "Expires in 6 hours",
       image:
   "https://www.google.com/imgres?q=picture%20of%20rotis&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F74%2F2020-05-08_19_34_28_Chapati_being_made_in_a_pan_in_the_Franklin_Farm_section_of_Oak_Hill%252C_Fairfax_County%252C_Virginia.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoti&docid=SAjeFAJAGgiPVM&tbnid=qzxBsuaHjQuAAM&vet=12ahUKEwjjx5r-tdqUAxWCxDgGHVyJN68QnPAOegQIIhAB..i&w=4032&h=3024&hcb=2&ved=2ahUKEwjjx5r-tdqUAxWCxDgGHVyJN68QnPAOegQIIhAB",
-    },
+    },*/
   ];
 
   return (
