@@ -110,8 +110,130 @@ export default function Home() {
           </h2>
 
           <p className="mt-3 text-gray-600">
-            Restaurants Active
+            Restaurants/Occassions Active
           </p>
+
+        </div>
+
+      </div>
+
+      {/* Nearby NGO Tracker */}
+
+      <div className="px-10 py-10">
+
+        <div className="bg-white shadow-2xl rounded-3xl p-10">
+
+          <h1 className="text-4xl font-bold text-orange-500">
+
+            Nearest NGO Tracking
+
+          </h1>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+
+            <div className="bg-gray-100 p-6 rounded-2xl hover:shadow-xl transition">
+
+              <h2 className="text-2xl font-bold">
+                Hope Foundation
+              </h2>
+
+              <p className="mt-3 text-gray-600">
+                Distance: 1.2 km
+              </p>
+
+              <p className="text-green-600 font-bold mt-2">
+                Available for Pickup
+              </p>
+
+              <div className="flex flex-col gap-3 mt-5">
+
+                <button className="bg-green-500 text-white px-4 py-3 rounded-xl hover:bg-green-600 transition">
+
+                  I Will Accept & Send Worker
+
+                </button>
+
+                <button className="bg-blue-500 text-white px-4 py-3 rounded-xl hover:bg-blue-600 transition">
+
+                  Accept But Need Volunteer
+
+                </button>
+
+                <button className="bg-red-500 text-white px-4 py-3 rounded-xl hover:bg-red-600 transition">
+
+                  Reject Donation
+
+                </button>
+
+              </div>
+
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-2xl hover:shadow-xl transition">
+
+              <h2 className="text-2xl font-bold">
+                Food Relief Network
+              </h2>
+
+              <p className="mt-3 text-gray-600">
+                Distance: 2.8 km
+              </p>
+
+              <p className="text-yellow-600 font-bold mt-2">
+                Volunteer Required
+              </p>
+
+              <div className="flex flex-col gap-3 mt-5">
+
+                <button className="bg-green-500 text-white px-4 py-3 rounded-xl hover:bg-green-600 transition">
+
+                  I Will Accept & Send Worker
+
+                </button>
+
+                <button className="bg-blue-500 text-white px-4 py-3 rounded-xl hover:bg-blue-600 transition">
+
+                  Accept But Need Volunteer
+
+                </button>
+
+                <button className="bg-red-500 text-white px-4 py-3 rounded-xl hover:bg-red-600 transition">
+
+                  Reject Donation
+
+                </button>
+
+              </div>
+
+            </div>
+
+            <div className="bg-gray-100 p-6 rounded-2xl hover:shadow-xl transition">
+
+              <h2 className="text-2xl font-bold">
+                CareBridge NGO
+              </h2>
+
+              <p className="mt-3 text-gray-600">
+                Distance: 4.1 km
+              </p>
+
+              <p className="text-red-500 font-bold mt-2">
+                Currently Unavailable
+              </p>
+
+              <div className="flex flex-col gap-3 mt-5">
+
+                <button className="bg-gray-400 text-white px-4 py-3 rounded-xl cursor-not-allowed">
+
+                  Offline
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
 
@@ -210,55 +332,83 @@ export default function Home() {
 
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+        </div>
 
-            <div>
+      </div>
 
-              <h2 className="text-5xl font-bold">
-                91%
-              </h2>
+      {/* Subscription Plans */}
 
-              <p className="mt-2">
-                Match Accuracy
-              </p>
+      <div className="px-10 pb-20">
 
-            </div>
+        <h1 className="text-5xl font-bold text-center text-orange-500 mb-16">
 
-            <div>
+          Restaurant Subscription Plans
 
-              <h2 className="text-5xl font-bold">
-                4.2T
-              </h2>
+        </h1>
 
-              <p className="mt-2">
-                Food Saved
-              </p>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 
-            </div>
+          <div className="bg-white shadow-2xl rounded-3xl p-8 text-center">
 
-            <div>
+            <h2 className="text-3xl font-bold">
+              Free
+            </h2>
 
-              <h2 className="text-5xl font-bold">
-                2,430
-              </h2>
+            <h1 className="text-6xl font-extrabold mt-6 text-orange-500">
+              ₹0
+            </h1>
 
-              <p className="mt-2">
-                People Served
-              </p>
+            <p className="mt-4 text-xl text-gray-600">
+              3 Uploads
+            </p>
 
-            </div>
+          </div>
 
-            <div>
+          <div className="bg-white shadow-2xl rounded-3xl p-8 text-center">
 
-              <h2 className="text-5xl font-bold">
-                18
-              </h2>
+            <h2 className="text-3xl font-bold">
+              Starter
+            </h2>
 
-              <p className="mt-2">
-                High Risk Zones
-              </p>
+            <h1 className="text-6xl font-extrabold mt-6 text-green-500">
+              ₹199
+            </h1>
 
-            </div>
+            <p className="mt-4 text-xl text-gray-600">
+              15 Days
+            </p>
+
+          </div>
+
+          <div className="bg-white shadow-2xl rounded-3xl p-8 text-center">
+
+            <h2 className="text-3xl font-bold">
+              Growth
+            </h2>
+
+            <h1 className="text-6xl font-extrabold mt-6 text-orange-500">
+              ₹299
+            </h1>
+
+            <p className="mt-4 text-xl text-gray-600">
+              20 Days
+            </p>
+
+          </div>
+
+          <div className="bg-white shadow-2xl rounded-3xl p-8 text-center">
+
+            <h2 className="text-3xl font-bold">
+              Premium
+            </h2>
+
+            <h1 className="text-6xl font-extrabold mt-6 text-purple-500">
+              ₹499
+            </h1>
+
+            <p className="mt-4 text-xl text-gray-600">
+              30 Days
+            </p>
 
           </div>
 

@@ -9,6 +9,8 @@ import UploadFood from "./pages/UploadFood";
 import NGO from "./pages/NGO";
 import Login from "./pages/Login";
 import Tracking from "./pages/Tracking";
+import NGORequests from "./pages/NGORequests";
+import Pricing from "./pages/Pricing";
 
 function App() {
 
@@ -41,6 +43,16 @@ function App() {
         <Route
           path="/tracking"
           element={<Tracking />}
+        />
+
+        <Route
+        path="/ngo-requests"
+        element={<NGORequests />}
+        />
+
+        <Route
+        path="/pricing"
+        element={<Pricing />}
         />
 
       </Routes>
