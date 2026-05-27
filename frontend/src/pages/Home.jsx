@@ -3,11 +3,12 @@ import Navbar from "../components/Navbar";
 export default function Home() {
 
   return (
-    <div>
+
+    <div className="bg-gray-50 min-h-screen">
 
       <Navbar />
 
-      <div className="flex flex-col items-center justify-center h-[85vh] bg-gray-50">
+      <div className="flex flex-col items-center justify-center h-[70vh]">
 
         <h1 className="text-7xl font-extrabold text-orange-500">
           RePlate
@@ -25,6 +26,47 @@ export default function Home() {
 
       </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-10 pb-20">
+
+        <div className="bg-white shadow-lg rounded-xl p-6">
+
+          <h2 className="text-2xl font-bold text-orange-500">
+            Reduce Waste
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+            Prevent edible food from being discarded.
+          </p>
+
+        </div>
+
+        <div className="bg-white shadow-lg rounded-xl p-6">
+
+          <h2 className="text-2xl font-bold text-orange-500">
+            NGO Matching
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+            Automatically connect donors to NGOs.
+          </p>
+
+        </div>
+
+        <div className="bg-white shadow-lg rounded-xl p-6">
+
+          <h2 className="text-2xl font-bold text-orange-500">
+            Fast Delivery
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+            Volunteers ensure quick food distribution.
+          </p>
+
+        </div>
+
+      </div>
+
     </div>
+
   );
 }
