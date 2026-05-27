@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import LiveMap from "../components/LiveMap";
 
 export default function Home() {
 
@@ -262,6 +263,27 @@ export default function Home() {
           </div>
 
         </div>
+
+      </div>
+
+      {/* Live Operations Map */}
+
+      <div className="px-10 pb-20">
+
+        <h1 className="text-5xl font-bold text-orange-500 mb-8">
+
+          Live Food Rescue Network
+
+        </h1>
+
+        <p className="text-xl text-gray-600 mb-8">
+
+          Real-time tracking of restaurants,
+          NGOs, and volunteers across the city.
+
+        </p>
+
+        <LiveMap />
 
       </div>
 

@@ -31,18 +31,46 @@ requests==2.32.3
 # Utilities
 python-dateutil==2.9.0.post0
 
-# Development Tools
-black==24.8.0
-isort==5.13.2
-pylint==3.3.1
-
-# Optional AI/Analytics (Future Use)
+# AI / Analytics
 numpy==2.1.1
 pandas==2.2.2
 scikit-learn==1.5.2
 
-# Optional Route Optimization
+# Route Optimization
 networkx==3.3
+
+# Geolocation & Maps
+geopy==2.4.1
+folium==0.17.0
+
+# Image Processing (future food recognition)
+pillow==10.4.0
+opencv-python==4.10.0.84
+
+# Async Support
+asyncio==3.4.3
+
+# Background Tasks
+celery==5.4.0
+redis==5.0.8
+
+# Environment & Logging
+loguru==0.7.2
+
+# API Server Utilities
+starlette==0.38.5
+
+# JSON Handling
+orjson==3.10.7
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# Development Tools
+black==24.8.0
+isort==5.13.2
+pylint==3.3.1
 
 # Production Server
 gunicorn==23.0.0
