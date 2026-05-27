@@ -7,10 +7,13 @@ import {
 import Home from "./pages/Home";
 import UploadFood from "./pages/UploadFood";
 import NGO from "./pages/NGO";
+import Login from "./pages/Login";
+import Tracking from "./pages/Tracking";
 
 function App() {
 
   return (
+
     <BrowserRouter>
 
       <Routes>
@@ -30,9 +33,20 @@ function App() {
           element={<NGO />}
         />
 
+        <Route
+          path="/login"
+          element={<Login />}
+        />
+
+        <Route
+          path="/tracking"
+          element={<Tracking />}
+        />
+
       </Routes>
 
     </BrowserRouter>
+
   );
 }
 
